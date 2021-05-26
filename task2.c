@@ -12,7 +12,7 @@ void task2_start(void) {
   // '*' を順に減らしながら10回表示する
   for (int i = 9; i >= 0; i--) {
     // タスク名を表示
-    printf("task1:(%02d) ", i);
+    printf("task2:(%02d) ", i);
 
     // '=' をインデックス分表示
     for (int j = 0; j <= i; j++) {
